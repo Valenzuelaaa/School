@@ -1,0 +1,46 @@
+html{
+     background-color: #EDE27B;
+   }
+
+h1,h2,h3
+{   text-align: center;
+     font-family: 'Anton', sans-serif;
+        color:#FFFFFF ;
+    }
+
+h4,li{ font-family: 'Indie Flower', cursive;
+padding-top: 2%;}
+
+#primero{
+background-color: #02734A;
+   
+}
+
+#segundo{
+    background-color: #FFFFFF;
+    color: #6b652d;
+   padding-left: 2%;
+}
+
+#tercero{
+    background-color: #BF0615;
+    color: #EDE27B;
+    padding-left: 2%;
+}
+
+p{
+    color: #d1cfbe;
+    font-family: 'Indie Flower', cursive;
+    padding-left: 2%;
+}
+
+img{
+    padding-left:220px;
+    height: 200px;
+}
+
+#primero,#segundo,#tercero{
+    display: flex;;
+    height: 220px;
+}
+
