@@ -1,0 +1,88 @@
+html{
+    background-color: #583a3a;
+}
+
+
+h1{
+    padding-left: 42%;
+    color:#fffffffa;
+    font-family: 'Comfortaa', cursive;
+}
+
+.abajo{
+    display: flex;
+    padding-right: 40px;
+    justify-content: space-around;
+    color:#ffffffd7;
+    font-family: 'Comfortaa', cursive;
+    background-color: rgb(15, 102, 15);
+    width:100%; 
+}
+
+.imagen{
+    height: auto;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.link{
+    color:#f0fff0;
+}
+.final{
+    margin-bottom: 5%;
+}
+
+.second{
+    padding-left: 30%;
+    color: #f0fff0;
+    background-color: #583a3a;
+}
+
+h2{
+    padding-left: 15%;
+}
+
+.gates{
+    background-color: #0000006c;
+    display:flex;
+    flex-direction: column;
+    height:auto;
+    width: 12%;
+}
+
+.jobs{
+    background-color: #0000006c;
+    display:flex;
+    flex-direction: column;
+    height:auto;
+    width: 12%;
+}
+
+.bezos{
+    background-color: #0000006c;
+    display:flex;
+    flex-direction: column;
+    height:auto;
+    width: 12%;
+}
+
+.zuck{
+    background-color: #0000006c;
+    display:flex;
+    flex-direction: column;
+    height: auto;
+    width: 12%;
+}
+
+.global{
+    display:flex;
+    color:blanchedalmond;
+    justify-content: space-evenly;
+    text-align: center;
+   
+}
+
+p{
+    padding-bottom: 30px;
+}
