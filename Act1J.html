@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+    <!-- Arriba el Santos laguna -->
+<head>
+    <meta charset = "UTF-8">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+    <link rel="stylesheet" href="Act1J.css">
+<title>Formulario a J</title>
+</head>
+
+<body>
+    <div class="formu">
+        <h1>Formulario</h1>
+        <div class="textbox">
+          
+          <input id = "nombre" type="text" placeholder="Nombre">
+        </div>
+      
+        <div class="textbox">
+          
+            <input id = "apellido" type="text" placeholder="Apellido">
+          </div>
+
+        <div class="textbox">
+        
+          <input id = "edad" type="number" min="0" step="1" oninput="validity.valid||(value='')" placeholder="Edad">
+        </div>
+
+        <div class="textbox">
+        
+            <input id = "email" type="email" placeholder="Email">
+          </div>
+        
+        <input id = "ajson" type="button" class="btn" value="Convertir a JSON">
+        <input id = "aString" type="button" class="btn" value="Convertir a String">
+      </div>
+      
+      <div class ="respuesta">
+
+        <textarea id = "tajson"> A Json </textarea>
+       
+      </div>
+
+      <script src = "Act1J.js"> </script>
+</body>
+
+
+</html>
