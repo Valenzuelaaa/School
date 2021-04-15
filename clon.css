@@ -1,0 +1,354 @@
+*{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-weight:light;
+
+}
+
+html{
+    height: 1500px;
+    
+
+}
+.Header{
+background-color: black;
+color: white;
+display:flex;
+justify-content: space-between;
+height: 30px;
+padding-top: 15px;
+}
+
+
+
+.Header1{
+    background-color: #e2b11c;
+    color: black;
+    display:flex;
+    justify-content: flex-end;
+    height:70px;
+    font-size: larger;
+    padding-top: 35 px;
+   
+}
+
+
+
+.a{
+    
+    padding-left: 15px;
+   
+    
+}
+
+#you{
+    padding-right: 100px;
+}
+.material-icons{
+    margin-bottom: 6px;    
+}
+
+
+.material-icons + .material-icons{
+        margin-left: 10px;
+       
+       
+}
+
+#descubre{
+    background-color: rgb(161, 15, 15) ;
+    margin-left: 100px;
+    
+
+}
+
+.e{
+    margin-top: 20px;
+    font-size: 19px;
+    margin-left: 20px;
+    margin-right: 10px;
+}
+
+#ser{
+    margin-right: 140px;
+}
+
+.uni{
+    margin-top: 8px;
+    font-size: 22px;
+    color: rgb(126, 6, 6);
+    display: flex;
+    flex-direction: column;
+    margin-right: 150px;
+    font-weight: bold;
+   
+}
+
+img{
+    z-index: 1;  
+}
+
+.material-icons.md-light { color: rgba(255, 255, 255, 1); }
+.material-icons.md-rojo {color:rgb(133, 18, 18);}
+.material-icons.md-carne {color:rgb(209, 223, 135);}
+
+
+i{
+    color:rgb(133, 18, 18);
+    
+}
+
+#antes,#despues{
+    padding-top: 12%;
+    font-size: 39px;
+        
+    
+}
+
+#antes{
+padding-left: 2%;
+}
+
+#despues{
+    padding-left: 90%;
+}
+.slide{
+    background: url("https://images6.alphacoders.com/112/thumb-1920-1124334.png")fixed ; 
+   
+    height:400px;   
+    width: 100%;  
+}
+
+.Divseccion{
+    
+    border: 1px solid rgb(56, 120, 124);
+    margin-left: 80px;
+    margin-right: 80px;
+   display: flex;
+   flex-direction: row;
+   justify-content: space-evenly;
+}
+
+.UNE{
+    font-size: 17px;
+}
+
+p{
+    color:rgb(131, 17, 17);
+    font-weight: bolder;
+}
+
+.individual{
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.individual:nth-child(1),.individual:nth-child(4){
+  border: 1px #05a3ca;
+  border-style: none solid none solid;
+}
+
+.individual:nth-child(2){
+    border: 1px #05a3ca;
+    border-style: none solid none none;
+}
+
+.prepa{
+   
+    font-size: larger;
+    font-weight: bold;
+    color:rgb(26, 19, 92); 
+  
+}
+
+
+.imagenesp{
+    display: flex;
+    justify-content: space-around;
+    margin-left: 3%;
+    margin-right: 3%;
+    padding-top: 50px;
+    
+}
+
+#in1    {
+    border: 9px #e2b11c;
+    border-style: solid none none none;
+    background: url("https://escueladeexperiencias.com/wp-content/uploads/2019/05/no-hay-aprendizaje-1024x512.jpg") fixed;
+    height:120px;
+    width: 172px;
+  
+}
+
+#in2    {
+    border: 9px #d14742;
+    border-style: solid none none none;
+    background: url("https://escueladeexperiencias.com/wp-content/uploads/2019/05/no-hay-aprendizaje-1024x512.jpg") fixed;
+    height:120px;
+    width: 172px;
+}
+
+#in3    {
+    border: 9px #273481;
+    border-style: solid none none none;
+    background: url("https://escueladeexperiencias.com/wp-content/uploads/2019/05/no-hay-aprendizaje-1024x512.jpg") fixed;
+    height:120px;
+    width: 172px;
+}
+
+#in4    {
+    border: 9px #868379;
+    border-style: solid none none none;
+    background: url("https://escueladeexperiencias.com/wp-content/uploads/2019/05/no-hay-aprendizaje-1024x512.jpg") fixed;
+    height:120px;
+    width: 172px;
+}
+
+#in5    {
+    border: 9px #862892;
+    border-style: solid none none none;
+    background: url("https://escueladeexperiencias.com/wp-content/uploads/2019/05/no-hay-aprendizaje-1024x512.jpg") fixed;
+    height:120px;
+    width: 172px;
+}
+
+.rad{
+    display: flex;
+    justify-content: space-around;
+    margin-left: 3%;
+    margin-right: 3%;
+    padding-top: 50px;
+   
+}
+
+.rads{
+    color:white;
+   
+}
+
+#rad1{
+    background-color: rgb(136, 35, 35);
+    border-radius: 10%;
+    height:90px;
+    width: 240px;
+    border: 4px rgb(61, 2, 2);
+    border-style: none inset inset none;
+    
+}
+
+#rad2{
+    background-color: rgb(13, 46, 136);
+    border-radius: 10%;
+    height:90px;
+    width: 240px;
+    border: 4px rgb(18, 2, 54);
+    border-style: none inset inset none;
+}
+
+#rad3{
+    background-color: rgb(136, 35, 35);
+    border-radius: 10%;
+    height:90px;
+    width: 240px;
+    border: 4px rgb(61, 2, 2);
+    border-style: none inset inset none;
+}
+
+#rad4{
+    background-color: rgb(136, 35, 35);
+    border-radius: 10%;
+    height:90px;
+    width: 240px;
+    border: 4px rgb(61, 2, 2);
+    border-style: none inset inset none;
+}
+
+.Caja{
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.Contenido{
+    display: flex;
+    margin-right: -15px;
+    margin-left: -15px;
+    justify-content: center;
+}
+
+h2{
+    color: #a22e3e;
+    font-family: "Roboto Slab", serif;
+    font-size: 2em;
+    font-weight: 400;
+    position: relative;
+    z-index: 1;
+}
+
+a{
+cursor: pointer;
+}
+
+.Caja2{
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 3%;
+    margin-right: 3%;
+}
+
+.Contenido2{
+    width: 50%;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-bottom: 0;
+}
+
+.ImagenA{
+    max-width: 100%;
+    height: auto;
+}
+
+footer{
+    color: #e3e3e3;
+    font-family: "Roboto Slab", serif;
+
+
+}
+
+.ContenidoF{
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-bottom: 60px;
+    padding-top: 60px;
+    background-color: #202020;
+}
+
+.Columna{
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+.Columna1{
+
+    position: relative;
+    width: 100%;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+    flex: 0 0 25%;
+    max-width: 25%;
+    margin-bottom: 0;
+}
+
+footer .LogoUNI{
+fill: white;
+
+
+}
