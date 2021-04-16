@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(212, 182, 143);
+    
+}
+body{
+    background:#022344;
+    color: #092252;
+    padding: 30px;  
+    font-weight: bold;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #15497c;
+    
+    
+    
+}
+
+.prediccion{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 2fr 1fr;
+    margin-left: 10vw;
+    margin-right: 10vw;
+}
+
+i{
+    font-size: 1.5em;
+}
+
+html{
+    background: url(https://p4.wallpaperbetter.com/wallpaper/847/335/611/forest-mountains-sunset-cool-weather-minimalism-wallpaper-preview.jpg)center;
+}
+
+#mapid{
+    height: 180px;
+    margin-top: 10% ;
+}
