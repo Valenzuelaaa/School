@@ -1,0 +1,19 @@
+html{
+    height:auto;
+    width:auto;
+ 
+}
+
+*{
+    background: url("https://64.media.tumblr.com/20f8c24aa5a51dd9696f29b15b1ab2b0/tumblr_ojopgdVPJR1t6limbo8_r1_640.png");
+}
+
+
+span{
+    font-size: x-large;
+    display: flex;
+    justify-content: center;
+
+}
+
+
