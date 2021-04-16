@@ -1,0 +1,53 @@
+header{
+  
+    text-align: center;
+    color: rgb(11, 218, 245);
+    margin-bottom: 5%;
+    
+}
+
+body{
+    background: url("https://images6.alphacoders.com/112/thumb-1920-1124334.png")fixed;
+    color:white;
+    font-size: 25px;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    text-align: center; 
+}
+
+footer{
+   
+    font-size: medium;
+    color:rgb(245, 139, 120);
+    position:fixed;
+    margin-top:36%;
+    width: 100%;
+    font-size: 26px;
+    font-weight: bolder;
+
+}
+
+.boton-custom{
+    background-color: rgb(119, 200, 233);
+    border-radius: 5px;
+    border: 2px solid #4b0707;
+    transition-duration: 0.5s;
+    color:#4b0707;
+
+}
+
+.boton-custom:hover{
+    background-color: rgb(5, 7, 75);
+    color:rgb(229, 255, 0)
+}
+
+textarea{
+ background-color: rgb(12, 5, 71);
+    color:thistle
+}
+
+html{
+    background: url("https://images6.alphacoders.com/112/thumb-1920-1124334.png")fixed;
+ 
+}
